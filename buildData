@@ -1,0 +1,34 @@
+
+import json
+import names
+import datetime
+import constants
+import sleep_identifiers
+import generate_data
+
+baby_name = names.get_full_name() # baby full name
+bab_age = constants.BABY_AGE_IN_MONTHS
+
+# create object
+sleep_identifiers.initialize_objects()
+
+# build a normal sequence
+sleep_identifiers.generate_normal_sequence_6months()
+
+
+
+
+
+
+#output_list = []
+#for item in nap_time:
+#    nap = {}
+#    nap['start_time'] = item[0]
+#    nap['end_time'] = item[1]
+#    output_list.append(nap)
+
+#print(output_list)
+
+#fh = open("my_json.json", "a+")
+#fh.write(json.dumps({"naps": nap_time[1], "BedTime": go_to_bedtime})) # added an extra ')'.. code will now work
+#fh.close()

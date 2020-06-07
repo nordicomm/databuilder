@@ -1,0 +1,170 @@
+[
+    {
+        "age_in_months": 3,
+        "daytime_naps_number": 4,
+        "daytime_sleep": 8,
+        "nighttime_naps_number": 3,
+        "nighttime_sleep": 7,
+        "total_sleep": 15
+    },
+    {
+        "age_in_months": 4,
+        "daytime_naps_number": 4,
+        "daytime_sleep": 5,
+        "nighttime_naps_number": 3,
+        "nighttime_sleep": 9,
+        "total_sleep": 14
+    },
+    {
+        "age_in_months": 5,
+        "daytime_naps_number": 3,
+        "daytime_sleep": 5,
+        "nighttime_naps_number": 2,
+        "nighttime_sleep": 9,
+        "total_sleep": 14
+    },
+    {
+        "age_in_months": 6,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 3,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 10,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 7,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 3,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 10,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 8,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 3,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 10,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 9,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 10,
+        "total_sleep": 12
+    },
+    {
+        "age_in_months": 11,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 10,
+        "total_sleep": 12
+    },
+    {
+        "age_in_months": 12,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 13,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 14,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 15,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 16,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 17,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 18,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 19,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 20,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 21,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 22,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 23,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    },
+    {
+        "age_in_months": 24,
+        "daytime_naps_number": 2,
+        "daytime_sleep": 2,
+        "nighttime_naps_number": 1,
+        "nighttime_sleep": 11,
+        "total_sleep": 13
+    }
+]
