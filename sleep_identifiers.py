@@ -66,17 +66,11 @@ class baby_day:
     def add_feedtime(self, feed_time_to_add, current_pointer):
         self.feed_time.append(current_pointer)
 
-    def add_bathtime(self):
-        self.bathtime_before_sleep = self.pointer
-
-    def add_wakeuptime(self):
-        self.morning_wakeup_time = self.pointer
-
     def print_date(self):
         print(self.start_log_date, "sleep data")
 
-    def get_date(self):
-        return self.pointer.date()
+    #def get_date(self):
+        #return self.pointer.date()
 
 # define the list of day object
 day = [] # list of day, for which data is generated
@@ -97,7 +91,7 @@ def initialize_objects():
 # NOTE: I was working on generating a normal sequence with classes
 
 def generate_normal_sequence_6months():
-    startDate = day[0].get_date()
+    startDate = day[0].pointer
     # print start data
     print(startDate, "General")
 
