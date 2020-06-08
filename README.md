@@ -8,7 +8,7 @@ It is designed also to test data visualization part of the project.
  
 
 
-## Part 1: Building a Jason for Expected Baby Schedule. 
+## Part 1: Building a JSON for Expected Baby Schedule. 
 On "Nanit" and other related websites we could fetch the data of the baby. 
 
 Link:  https://www.nanit.com/blog/baby-sleep-schedule/3-month-baby-sleep-schedule/
