@@ -44,6 +44,8 @@ def parser_function(page_soup, baby_age):
     # finds detailed data based on baby's age
     information = page_soup.findAll("div", {"class": "article-pure-content clearfix"})
 
+    print("\n\n" + information[0].text + "\n\n")
+
     parser_info = MyHTMLParser()
     parser_info.feed(str(information[0]))
 
@@ -84,8 +86,8 @@ def parser_function(page_soup, baby_age):
 
     output_list.append(addtitle) # append the final title and paragraph after loop
 
-    # for x1 in output_list: # print the output list data
-    #    print("\n\n output list" + str(x1))
+    for x1 in output_list: # print the output list data
+        print("\n\n output list" + str(x1))
 
     fh.write(json.dumps(output_list, indent=4, sort_keys=True)) # dump the list to JSON file
 

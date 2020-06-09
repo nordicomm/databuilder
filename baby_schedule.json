@@ -59,4 +59,65 @@
         "baby_schedule_name": "Bedtime",
         "baby_schedule_time": ""
     }
+][
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Depending on the last time your little one was fed, this first feed of the day might be a big one. Make sure to take note if your baby is not super hungry \u2014this might be a sign that you need to cut back on feeding in the middle of the night. For those breastfeeding, you'll probably be very full in the morning, particularly after a long stretch of rest and not feeding. Consider pumping off extra milk to store for later, after you've fed your baby. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Someone's feeling a bit sleepy! Don't be surprised if your baby needs a nap before this time, two hours awake is just enough time to tire the little one out at this time in the morning. Just keep an eye on how long they nap \u2014too long might mean that they don't get enough to eat during the day, making them hungrier at night.  ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Time for food! Feed your baby upon awakening, who may not wake up for another half an hour or so. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Let your little one recharge for another 30 minutes if they don't wake up on their own. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Feeding time has come (again) \u2014this may not happen for another half an hour, when baby awakes. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Babies are like cats with their naps, sometimes only needing 15-40 minutes at this time (or a little longer if they want)... let the little one sleep for another 30 minutes if they don't wake up on their own at this time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Wakey wakey. Time to be fed! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " It's up to you to decide if a bath feels right at this time of day. If your little one is happy and relaxed, great! But if it stresses you and your baby out, maybe try bathing at a different time of the day, or not every day.  ",
+        "baby_schedule_name": "Bathtime",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Your little one is at the age where you can start thinking about trying to keep them from falling asleep at the bottle or breast. Maybe break up the feed and bedtime with a song or story to create some positive sleep associations.  ",
+        "baby_schedule_name": "Last Milk Feed",
+        "baby_schedule_time": ""
+    },
+    {
+        "baby_age": "['4']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": ""
+    }
 ]
