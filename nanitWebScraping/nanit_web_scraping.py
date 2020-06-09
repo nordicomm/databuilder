@@ -1,8 +1,6 @@
-
-from urlib_webscraping import webscraping_urlib
-from nanit_detailed_info_parser import parser_function
-from nanit_baby_schedule import baby_schedule_scraper
-from selenium_webscraping import selenium_webscraping_function
+from nanitWebScraping.nanit_detailed_info_parser import parser_function
+from nanitWebScraping.nanit_baby_schedule import baby_schedule_scraper
+from nanitWebScraping.selenium_webscraping import selenium_webscraping_function
 
 import time # to add dealy
 

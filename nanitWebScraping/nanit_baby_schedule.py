@@ -7,13 +7,13 @@ def baby_schedule_scraper(page_soup):
     containers = page_soup.findAll("div", {"class": "month-schedule-chart"})
 
     # name the output file to write to local disk
-    out_filename = "baby_schedule.json"
+    out_filename = "../baby_schedule.json"
 
     # header of csv file to be written
     headers = "baby_age,baby_schedule_name,baby_schedule_time, baby_schedule_description \n"
 
     # opens file, and writes headers
-    fh = open("baby_schedule.json", "a+") #open JSON file
+    fh = open("../baby_schedule.json", "a+") #open JSON file
 
     # baby_age from the header
     baby_age_container = containers[0].findAll("div", {"class": "month-schedule-chart-title"})

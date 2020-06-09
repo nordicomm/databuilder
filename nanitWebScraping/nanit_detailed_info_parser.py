@@ -62,7 +62,7 @@ def parser_function(page_soup, baby_age):
     substring_title = SUBSTRING_TITLE_TAG
     substring_desc = SUBSTRING_DESCRIPTION_TAG
 
-    fh = open("baby_age_wise_sleep_details.json", "a+") #open JSON file
+    fh = open("../baby_age_wise_sleep_details.json", "a+") #open JSON file
 
     for x in parser_info.info:
 
