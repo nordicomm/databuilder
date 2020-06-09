@@ -3,121 +3,1449 @@
         "baby_age": "['3']",
         "baby_schedule_description": " Depending on the last time your little one was fed, this first feed of the day might be a big one. Make sure to take note if your baby is not super hungry \u2014this might be a sign that you can start to cut back on feeding in the middle of the night (yay!). For those breastfeeding, you'll probably be very full in the morning, particularly after a long stretch of rest and not feeding. Consider pumping off extra milk to store for later, after you've fed your baby. ",
         "baby_schedule_name": "Wake and Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "6:15 am"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Someone's feeling a bit sleepy! Don't be surprised if your baby needs a nap before this time, two hours awake might be too long for your little one at this time in the morning. Just keep an eye on how long they nap \u2014too long might mean that they don't get enough to eat during the day, making them hungrier at night.  ",
         "baby_schedule_name": "Naptime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "8:15 am - 9:15 am"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Time for food! Feed your baby upon awakening, who may not wake up for another half an hour or so. Your baby might be still falling asleep at the breast or the bottle at this stage and that's fine! ",
         "baby_schedule_name": "Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "9:15 am"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Let your little one recharge for another 30 minutes if they don't wake up on their own. ",
         "baby_schedule_name": "Naptime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "11:15 am - 12:15 pm"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Feeding time has come (again) \u2014this may not happen for another half an hour, when baby awakes. ",
         "baby_schedule_name": "Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "12:15 pm"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Babies are like cats with their naps, sometimes only needing 15-40 minutes at this time (or a little longer if they want)... let your little one sleep for another 30 minutes if they don't wake up on their own at this time. Your baby might even fit in another cat nap before bedtime if the naps were short. ",
         "baby_schedule_name": "Naptime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "2:15 pm - 3:15 pm"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Wakey wakey. Time to be fed! ",
         "baby_schedule_name": "Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "3:15 pm"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " It's up to you to decide if a bath feels right at this time of day. If your little one is happy and relaxed, great! But if it stresses you or your baby out, maybe try bathing at a different time of the day, or not every day.  ",
         "baby_schedule_name": "Bathtime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "5:30 pm"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Your little one is at the age where you can start thinking about trying to keep them from falling asleep at the bottle or breast. Maybe break up the feed and bedtime with a song or story to create some positive sleep associations. But if your baby is still falling asleep at the breast or bottle, don't worry about it-we can focus on that in a month or so! ",
         "baby_schedule_name": "Last Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "6:00 pm"
     },
     {
         "baby_age": "['3']",
         "baby_schedule_description": " Time for bed. Sweet Dreams! ",
         "baby_schedule_name": "Bedtime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "6:15 pm"
     }
 ][
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Depending on the last time your little one was fed, this first feed of the day might be a big one. Make sure to take note if your baby is not super hungry \u2014this might be a sign that you need to cut back on feeding in the middle of the night. For those breastfeeding, you'll probably be very full in the morning, particularly after a long stretch of rest and not feeding. Consider pumping off extra milk to store for later, after you've fed your baby. ",
         "baby_schedule_name": "Wake and Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "6:15 am"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Someone's feeling a bit sleepy! Don't be surprised if your baby needs a nap before this time, two hours awake is just enough time to tire the little one out at this time in the morning. Just keep an eye on how long they nap \u2014too long might mean that they don't get enough to eat during the day, making them hungrier at night.  ",
         "baby_schedule_name": "Naptime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "8:15 am - 9:15 am"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Time for food! Feed your baby upon awakening, who may not wake up for another half an hour or so. ",
         "baby_schedule_name": "Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "9:15 am"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Let your little one recharge for another 30 minutes if they don't wake up on their own. ",
         "baby_schedule_name": "Naptime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "11:15 am - 12:15 pm"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Feeding time has come (again) \u2014this may not happen for another half an hour, when baby awakes. ",
         "baby_schedule_name": "Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "12:15 pm"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Babies are like cats with their naps, sometimes only needing 15-40 minutes at this time (or a little longer if they want)... let the little one sleep for another 30 minutes if they don't wake up on their own at this time. ",
         "baby_schedule_name": "Naptime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "2:15 pm - 3:15 pm"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Wakey wakey. Time to be fed! ",
         "baby_schedule_name": "Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "3:15 pm"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " It's up to you to decide if a bath feels right at this time of day. If your little one is happy and relaxed, great! But if it stresses you and your baby out, maybe try bathing at a different time of the day, or not every day.  ",
         "baby_schedule_name": "Bathtime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "5:30 pm"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Your little one is at the age where you can start thinking about trying to keep them from falling asleep at the bottle or breast. Maybe break up the feed and bedtime with a song or story to create some positive sleep associations.  ",
         "baby_schedule_name": "Last Milk Feed",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "6:00 pm"
     },
     {
         "baby_age": "['4']",
         "baby_schedule_description": " Time for bed. Sweet Dreams! ",
         "baby_schedule_name": "Bedtime",
-        "baby_schedule_time": ""
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " Depending on the last time your little one was fed, this first feed of the day might be a bigger than usual. Make sure to take note if your baby is not super hungry \u2014 you might need to cut back on feeding in the middle of the night. If you're breastfeeding, you'll be very full in the morning, particularly after a long stretch of rest and not feeding. Consider pumping off extra milk to store for later, after you've fed your baby.  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " It's time a for a break, and this nap is a perfect time to take one. Grab yourself a coffee, take a shower, Netflix perhaps? Indulge in some you time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " Time for food! Your baby baby will be hungry when they wake up from their nap. (They may not wake up for another half an hour.) ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "9:15 am"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " It's fine to let your little one nap for another 30 minutes if they don't wake up on their own. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "11:15 am - 12:15 pm"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " It's time for another feed \u2014this may not happen for another half an hour, when baby awakes. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "12:15 pm"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " Babies are like cats with their naps, sometimes only needing 15-40 minutes at this time (or a little longer if they want)... let the little one sleep for another 30 minutes if they don't wake up on their own at this time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "2:15 pm - 3:15 pm"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " It's time for post naptime milk! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "3:15 pm"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " Timing for a bath is up to you. If everyone's having fun and feeling good, great! But if you and baby are stressed out, try bath time at another point in the day or every other day if that feels right. ",
+        "baby_schedule_name": "Bathtime",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " Break up the last feed and bedtime with a song or story, to avoid having the little one fall asleep at the breast or bottle. ",
+        "baby_schedule_name": "Last Milk Feed",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['5']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " This first feed of the day might be bigger, depending on when you last fed your little one. If you're baby is not really hungry, this might be a sign to cut back on nighttime feeds. For those breastfeeding, you'll probably be very full in the morning, particularly after a long stretch of rest and not feeding. You may want to pump off extra milk to store for later, after you've fed your baby.  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " You deserve a break, and this nap is a perfect time to take one. Grab yourself a coffee, take a shower, Netflix perhaps? Indulge in some you time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " Time for food! Your baby may not be awake for another half an hour, and they'll be hungry.  ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "9:15 am"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " If your baby has started eating solid foods, maybe offer a small lunch before another nap. Let the little one sleep another 30 minutes if they don't wake up on their own. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "11:15 am - 12:15 pm"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " Time to feed baby\u2014this may not happen for another half an hour, when your baby wakes up from their nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "12:15 pm"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " Babies are like cats with their naps, sometimes only needing 15-30 minutes at a time (or a little longer if they want)... Make sure they're up within this hour, otherwise it'll be a little trickier to get them to sleep at night. Your little one is about to transition to two naps, so it's alright if there are days where they skip this nap, especially if it is taken on the go, like in a stroller or car. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "2:15 pm - 3:15 pm"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " The nap is over and it's time for milk! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "3:15 pm"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " Nighttime baths are kind of optional, but if you and baby enjoy it, great! But if it feels stressful, try bathing at another time during the day. Your little one may need a quick sponge off after dinner though, especially since their meals might start getting a little messy! ",
+        "baby_schedule_name": "Bathtime",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " A good way to avoid having your baby fall asleep at the breast or bottle is by incorporating some kind of story time, music, or any kind of mellow interactive playtime between the last feed and bedtime. ",
+        "baby_schedule_name": "Last Milk Feed",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['6']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " If your baby hasn't fed overnight, this first feed of the day will be a big one. On the other hand, if the little one is not really hungry due to an overnight feed, it might be time to start cutting back on those nighttime feeds. If you're breastfeeding, you'll probably feel pretty full first thing in the morning. After baby's been fed, pump off some of that extra milk for later.  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " It's time for a solid breakfast. You're most likely going to puree any foods at this age, but this is a good opportunity to start experimenting with flavors. Your little one might like sweet potato pureed with oatmeal and apple, pureed avocado and rice cereal, or pureed quinoa with banana and squash (yum!). ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Your baby will most likely ~love~ this nap. Just make sure that they're up within half an hour of this time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Once your baby is more comfortable on solid food, this feed may need to cut back a bit, especially if they're not hungry by 10am. Feel free to push back 30 minutes depending on when they awake from their nap, and maybe cut down on how much you feed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Time for a solid lunch! Experiment with flavors and textures, much like during breakfast.  ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Someone's ready for their afternoon nap! Your baby will appreciate this long time to rest. Enjoy some you time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Your baby will need to be fed milk once they wake up from their nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Every meal is an opportunity to experiment with flavors and textures. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath!   ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Let's try not make the feed the absolute last thing the baby does before bed! Maybe break up the feed and bedtime with a song or story. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['7']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams!   ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Pay attention to how your baby reacts to this morning's feed \u2014 if they're less hungry, you may consider cutting back on nighttime feeds. If you're breastfeeding, you will probably feel pretty full after a night of resting and not feeding. After baby's been fed, pump off some of that extra milk for later.  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Now that your baby is eating more solid breakfasts, take an opportunity to experiment with flavors and textures that your little one might come to love. Maybe some avocado on toast fingers, toast fingers with butter (or vegemite if you're Australian like one of our employees!). ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Timing for this nap may fluctuate. Your baby may be ready 15 to 30 minutes after this time. Totally fine if that's the case, just make sure they're up with half an hour, if they don't wake up on their own by the end of this hour. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Once your baby is more comfortable on solid food, this feed may need to cut back a bit, especially if they're not hungry at this time. You may wish to push back by 30 minutes depending on when they awake from their nap, and maybe cut down on the amount you feed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " This solid lunch is a great time to start experimenting with flavors and textures. Encourage your little one to start feeding themself, even if it's just small pieces of food while the majority of their food is still guided by a caregiver! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Someone's ready for a nice long afternoon nap! Enjoy some time to yourself. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " *feed me, feed me* time for post-nap milk. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Solid dinners are a great time to play with even more flavors and textures. Keep it consistent with lunch, if you'd like, or mix it up if baby's responding well to new foods. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Break up the last feed and bedtime with a song or story, to avoid having the little one fall asleep at the breast or bottle. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['8']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " The morning feed is usually the biggest feed of the day. Your little one should be able to sleep through the night without being fed at this age. If you are still feeding overnight and find that they are not hungry in the morning, that's a good sign to cut back on nighttime feeds. If you're breastfeeding, take an opportunity to pump off some of the extra milk you're probably storing from a long stretch of rest and not feeding overnight. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Get creative here with a fun solid breakfast that your baby will love. You may still have to serve up mainly pureed foods, but this is a great time to experiment with eclectic flavors and textures. Maybe try mashing instead of pureeing foods, or offer avocado on toast fingers, toast fingers with butter, roasted cherry tomatoes, scrambled eggs, or whole wheat pancakes cooked with blueberries (great for developing young brains!).  ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Timing for this nap may change from day to day. Your baby may not be ready for a nap for another 15 to 30 minutes. Totally fine if that's the case, just make sure they're up within an hour, if they don't wake up on their own at the end of this hour. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " If your baby is more comfortable with solid foods, try cutting back a bit on this feed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Similar to breakfast, this solid lunch is a great time to start experimenting with flavors and textures. Encourage your baby to start self-feeding, even if it's just small pieces of food while the majority of their food is still fed to them! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Enjoy some time to yourself while your baby takes a nice long afternoon nap! ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Your little one will be hungry for milk once they wake up from their nap! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Every meal is a new opportunity to introduce your baby to exciting new flavors and textures, especially since they've probably already eaten solid foods for every other meal of the day. Dinner should be no different! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Try to make sure that the feed isn't the absolute last thing the baby does before bed. Consider breaking up the feed and bedtime with a calming song or bedtime story, rather than falling asleep at the breast or the bottle. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['9']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " Don't be surprised if the first feed of the day is a big one, especially since your baby didn't feed overnight. Your little one should be able to sleep through the night without being fed at this age. If you are still feeding overnight and find that they are not hungry in the morning, that's a good sign to cut back on nighttime feeds. After baby's been fed, pump off any extra milk and store for later. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " Get creative here with a fun solid breakfast that your baby will love. You may still have to serve up mainly pureed foods, but don't be afraid to  experiment with eclectic flavors and textures. Maybe try mashing instead of pureeing foods, or offer toast fingers with butter, avocado on toast fingers, scrambled eggs, roasted cherry tomatoes, or whole wheat pancakes cooked with blueberries (get those antioxidants!).  ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " Timing for this nap may vary. Your baby may be ready closer to 15 or 30 minutes after this time.  Just make sure they're up within an hour, if they don't wake up on their own at the end of this hour. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " At this point, your baby may be more comfortable with solid foods. Try cutting back a bit on this feed, if that's the case. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " A solid lunch for your baby at this age means that they're fairly comfortable with all kinds of flavors and textures, and may start to feed themself. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " If the little one had a longer morning nap, they may resist this nap at first. When they do fall asleep though, they'll feel relaxed and restored. Take some time for yourself! ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " A post-nap milkfeed is in order, someone's feeling hungry! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " A solid dinner with different solid foods with different flavors and textures will help your baby continue to expand their palate as they start to feel more and more comfortable self-feeding. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " You might find that baby needs less milk before bed, now that they're a bit more comfortable with solid dinners. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['10']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Your baby might be hungry since you probably didn't feed overnight, so this feed will be a big one.  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Get creative here with a fun solid breakfast that your baby will love. Maybe try out oatmeal, avocado on toast fingers, toast fingers with butter, roasted cherry tomatoes, scrambled eggs or whole wheat pancakes cooked with blueberries (get those antioxidants!). ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Your baby may be ready for this nap closer 15 to 30 minutes later. That's totally fine \u2014 just make sure they wake up no later than an hour after this time, if they don't wake up on their own. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " If your baby is more comfortable with solid foods, they may not be as hungry for milk. Time to start cutting back. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Your baby is fairly comfortable with all kinds of flavors and textures during this solid lunch, growing more and more comfortable self-feeding. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " If the little one had a longer morning nap, they may resist this nap at first. Fear not \u2014 they will eventually fall asleep for a nice long afternoon nap. Take some time for yourself! ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Your baby may need to be fed milk once they wake up from their long nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " A variety of flavors and textures for this solid dinner will help your baby continue to get familiar with different flavors and textures \u2014 with your encouragement, your baby is self-feeding more and more! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " It's okay if your baby is less hungry for a milk feed at this point \u2014 they're probably still full from their dinner! Offer a song or a story before bed to encourage a consistent routine. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['11']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Your baby might be hungry if they're not getting nighttime feeds, so this feed will be a big one.  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Your baby will love this solid breakfast especially as you get more and more creative with different flavors and textures. Maybe try out oatmeal, toast fingers with butter, roasted cherry tomatoes, scrambled eggs, avocado on toast fingers, or whole wheat pancakes cooked with blueberries (great brain food for your baby!). ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Your baby may be ready for this nap closer 15 to 30 minutes later. That's totally fine \u2014 just make sure they wake up no later than an hour after this time, if they don't wake up on their own. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Cut back on milk if your baby is feeling less hungry for milk and more comfortable with solid foods. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Your baby's getting a little more independent, which means they should be fairly comfortable with a variety of solid foods, flavors, and textures. They're likely feeding themself more and more. Yay! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " If your little one had a longer morning nap, they may be resistant to this nap, so you may want to start the nap a little later. Take some time for yourself while they rest. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Your baby will probably be hungry for milk once they wake up from their nap.  ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Your little one is more independent now, and may feel comfortable feeding themself a solid dinner, featuring a variety of flavors and textures.  ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Now that your baby is more comfortable with solid dinners, they may be less hungry for milk before bed. Offer a calming song or story before bed to encourage a consistent routine. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['12']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Prepare for a bigger feed, especially since your baby probably wasn't fed overnight. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Your baby will love this solid breakfast so don't be afraid to get a little creative with different flavors. If you need some inspiration, start with foods like avocado on toast fingers, toast fingers with butter, oatmeal, scrambled eggs, roasted cherry tomatoes, or whole wheat pancakes cooked with blueberries (a great source of antioxidants!).  ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " This naptime varies from day to day. Your baby may be ready closer to 30 or 45 minutes after this time. That's totally fine \u2014 but you may have to wake them if they don't wake up on their own at the end of this hour. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " It might be time to start cutting back on this feed if your baby is not as hungry for milk and feeling more comfortable with solid foods. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Your little one's growing more and more independent, which means they should be fairly comfortable with a variety of solid foods, flavors, and textures. They're likely feeding themself more and more. Hooray! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " If your baby had a slightly longer nap in the morning, they may be resistant to this nap. Once they fall asleep though, they'll nap for a while, which means you'll have some time to yourself! ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Your little one will be ready for some milk once they're awake from their nap! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Solid foods should be a regular part of your baby's daily meals at this point, and dinner is no different! Encourage them to continue tasting and and getting familiar with delicious new flavors and textures while they get more comfortable with self-feeding. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " If your baby is less hungry for milk before bed, it's probably because they're still full from their solid dinner! Try reading a story or singing a lullaby to help them fall asleep and encourage a consistent bedtime routine. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['13']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " At this age, your baby is able to sleep through the night without feeling hungry. The first feed of the day will be a bigger one for this reason. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " Somebody's hungry! Your baby will love trying out new foods during this solid breakfast. Try introducing foods like oatmeal, avocado on toast fingers, toast fingers with butter, scrambled eggs, roasted cherry tomatoes, or whole wheat pancakes cooked with blueberries. ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " This nap may be a bit shorter depending on the day \u2014 your baby may feel ready closer to 45 minutes later. Totally fine, just make sure they're up in time for the next feed, if they don't awake on their own at the end of this hour. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "8:15 am - 9:15 am"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " As your baby starts to eat more and more solid foods, they may not be as hungry for milk. Try cutting back on this feed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "10:15 am"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " Solid foods are your baby's new best friend! Don't be surprised if they're starting to feel more and more comfortable with self-feeding, too. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " This nap may be pushed back 30 minutes if your baby has more energy between naps, which is totally fine. Just make sure they're awake by the end of this hour to be ready for their scheduled bedtime. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " A nourishing milk feed will be nice for your baby after a long afternoon nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " Use every meal as an opportunity to introduce your baby to new (and familiar) solid foods, textures, and flavors. Your baby is more independent now, so encourage them to self-feed, if they seem comfortable to do so. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " Your baby may not need to be fed milk before bed, thanks to their nutritious and filling solid dinner. Try reading a book to the little one or singing a lullaby to help them fall asleep. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['14']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " You might choose to combine milk and breakfast at this age, especially if the little one is included in your family's breakfast. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Another opportunity to get creative with solid foods! If you need ideas: oatmeal, avocado on toast fingers, toast fingers with butter, roasted cherry tomatoes, scrambled eggs or whole wheat pancakes cooked with blueberries \u2014 options are limitless, just pay attention to what your baby reacts well to! ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " How does a small snack sound? Probably great for your baby! Just don't let it interfere with their lunch :) ",
+        "baby_schedule_name": "Optional Snack (Can Be Small Milk Feed)",
+        "baby_schedule_time": "9:15 am"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Your baby is comfortable with a solid lunch at this age, and a variety of flavors and textures. They'll be feeding themself more and more, just note that this meal might be slightly earlier now that they've transitioned to one nap. Keep the morning snack light so as not to interfere with this meal. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "10:45 am"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Your baby should have energy until at least this time, but ideally 30 minutes later. This nap shouldn't go for more than 3 hours. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "11:15 am - 2:15 pm"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Someone is awake and ready to be fed milk! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " A baby-sized snack for your baby might be good to help them last to dinner. Same as earlier, keep it light so as to not interfere with dinner. Foods like baby carrots, apples with peanut/almond butter, a handful of berries, a clementine, a mini whole wheat bagel with peanut/almond butter, or a hard boiled egg, are all great options. You'll probably be out and about, so choose something portable and easy on the go. ",
+        "baby_schedule_name": "Optional Snack",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " So many delicious flavors and textures for your little one to look forward to in this solid dinner! Encourage them to self-feed if that's something they seem comfortable doing. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Solid dinners may leave your baby feeling too full for a bottle before bed. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['15']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " If you didn't feed overnight, your baby will be hungrier than normal, so this feed will be a big one. You might think about combining milk and breakfast if you choose to include your little one in a family breakfast. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " This solid breakfast is another great opportunity to get creative. Maybe try soft and easy to digest foods like oatmeal, toast fingers with butter, roasted cherry tomatoes, avocado on toast fingers, whole wheat pancakes cooked with blueberries or scrambled eggs. ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " A small snack for your baby is perfect, so long as it doesn't interfere with lunch! ",
+        "baby_schedule_name": "Optional Snack (Can Be Small Milk Feed)",
+        "baby_schedule_time": "9:15 am"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " Solid lunches are something your baby has probably become accustomed to at this age, complete with a variety of flavors and textures. They'll be more comfortable self-feeding, too. Something worth noting: this meal might come slightly earlier now that baby's taking one nap a day, so be sure to keep the morning snack light to avoid interference! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "10:45 am"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " Try and make sure your baby doesn't fall asleep too early and don't let this nap last for more than 3 hours. It's okay if this nap is only 1-2 hours.  ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "11:15 am - 2:15 pm"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " Your little one is ready for a post-nap milk feed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " A baby-sized snack for your little one might be good to get them through to dinner. Same as earlier, keep it light to avoid interfering with the bigger end of day meal. Foods like baby carrots, apples with peanut/almond butter, a handful of berries, a clementine, a mini whole wheat bagel with peanut/almond butter, or a hard boiled egg, are all great options. You'll probably be out and about, so choose something portable and easy on the go. ",
+        "baby_schedule_name": "Optional Snack",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " At this age, dinner should be made up of yummy flavors and solid textures that encourage palate expansion and self-feeding. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " A nice big nutritious solid dinner might leave your baby feeling pretty full, leaving no need for a pre-bedtime feed. ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['16']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Think about combining milk and breakfast at this age, especially if baby is included in your family's breakfast. Don't be alarmed if they're a little hungrier than usual, especially if you aren't giving them nighttime feeds. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Your baby will love trying all kinds of flavors and foods during this solid breakfast. We recommend foods like oatmeal, toast fingers with butter or avocado, scrambled eggs, roasted cherry tomatoes, or whole wheat pancakes with blueberries! ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " How does a small snack sound? Great, for your baby so long as it doesn't interfere with their lunch! ",
+        "baby_schedule_name": "Optional Snack (Can Be Small Milk Feed)",
+        "baby_schedule_time": "9:15 am"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " A solid lunch sounds great for your baby at this age, as they grow more comfortable with a variety of textures, flavors, and foods. Self-feeding is something they'll also grow more confident with at this age. This meal might be slightly earlier, now that your baby has transitioned to one nap a day. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "10:45 am"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Your baby will be energized to stay awake until this time, but don't let this nap last more than 3 hours. They should be awake by no later than the end of this scheduled time. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "11:15 am - 2:15 pm"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Your baby is ready for their post-nap milkfeed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " A baby-sized snack for your baby might be good to help them last to dinner. Keep it light! Try foods like apples with peanut/almond butter, a handful of berries, baby carrots, a mini whole wheat bagel with peanut/almond butter, a clementine or a hard boiled egg, are all great options. Choose something that's easy to eat on the go. ",
+        "baby_schedule_name": "Optional Snack",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Solid dinners at this age should consist of more easy to eat, yummy to taste foods that your baby has become familiar with. Your little one will grow more and more comfortable self-feeding, too! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Baby probably needs less milk at this time, especially if they're still feeling pretty full from their dinner! ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['17']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " Your baby's going to be hungry after (most likely) not feeding overnight! Feel free to combine milk and breakfast if you'd like to include your little one in your family's meal. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " This first meal of the day is a great time to continue introducing creative flavors and foods to your baby. We recommend gentle foods like scrambled eggs, oatmeal, toast fingers with butter or avocado, roasted cherry tomatoes, or whole wheat pancakes with blueberries \u2014 let your imagination run free! ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " A small snack for your little one is fine, so long as it doesn't interfere with lunch! ",
+        "baby_schedule_name": "Optional Snack (Can Be Small Milk Feed)",
+        "baby_schedule_time": "9:15 am"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " This solid meal is another great opportunity to continue getting creative with different foods, flavors, and textures. Your little one will feel more comfortable feeding themself, too. This meal may need to be a bit earlier, since your baby is on the one nap a day schedule, so be sure to keep the morning snack light to avoid fullness for lunch. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "10:45 am"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " This long nap should last for no more than 3 hours, so make sure to wake up your little one by the end of this scheduled time if they're not already waking themself up. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "11:15 am - 2:15 pm"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " A post-nap milk feed is in order! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " Offer your baby foods that are easy to eat, like baby carrots, slices of cucumber, apples with peanut/almond butter, a handful of berries, a clementine, a mini whole wheat bagel with peanut/almond butter, or a hard boiled egg, are all great options. Don't let this afternoon snack interfere with dinner \u2014 keep it light and portable!  ",
+        "baby_schedule_name": "Optional Snack",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " Every baby is different, but it's common for babies at this age to feel comfortable eating a variety of solid foods with different flavors and textures. They'll probably enjoy feeding themself too! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:30 pm"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " Your little one might not crave a milk feed right now, given the solid dinner they just had!  ",
+        "baby_schedule_name": "Bottle and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['18']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " We recommend combining milk and breakfast at this age, especially if you're into the idea of including your little one in your family's breakfast. Get ready for a big meal!  ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " Creativity always wins with this age when it comes to food, and your baby will appreciate it especially for this solid breakfast! Try feeding your little one foods like oatmeal, scrambled eggs, toast fingers with butter or avocado, roasted cherry tomatoes, or even whole wheat pancakes with blueberries!  ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " Your baby might be hungry for a small snack \u2014 keyword, small! Don't let it get in the way of lunch. ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "9:45 am"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " A variety of textures and flavors are great for your baby at this time, especially during this solid lunch. They'll be feeding themself more and more, as they learn to do things for themself with each day. Lunch may be served a bit later now that they've solidly transitioned to one nap. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " Naps should last no longer than 2 hours. Try to have them asleep between these hours. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " There's still some day left, and after a nap, your baby will be ready for some milk! ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " A baby-sized snack for your baby will help tide them over until dinner. Light and portable is the way to go here, with easy solid foods like cucumber slices, strawberries, apples with peanut/almond butter, baby carrots, a handful of berries, a mini whole wheat bagel with peanut/almond butter, a clementine or a hard boiled egg, are all great options. Portable and easy to eat on the go is good too, especially if you're both out and about! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " A growing baby's gotta eat! They'll be feeding themself more and more, growing familiar and comfortable with a variety of textures and flavors. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm - 5:15 pm"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:45 pm"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " This milk feed is totally optional, since your baby will be getting most nutrition from solid foods at this age. ",
+        "baby_schedule_name": "Milk Feed and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['19']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " Try combining this milk feed for your likely hungry baby, with breakfast! This will work especially well if you're trying to include your little one in family meals. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " A good solid breakfast that your baby will love may consist of oatmeal, scrambled eggs, roasted cherry tomatoes, blueberry whole wheat pancakes, and anything else that you feel like getting creative with! Let your imagination run free. ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " A small snack (keyword, small) is good for baby at this time, just don't let it interfere with lunch! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "9:45 am"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " Now that your baby has solidly transitioned to one nap a day, you might want to feed them lunch a bit later than previous months. Keep the morning snack light, so as not to interfere with this solid lunch, comprised of a variety of flavors, textures, and exciting foods for your baby's developing taste buds. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " A comfortable nap for your baby will last no longer than 2 hours, between these hours. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " Wakey wakey! Time for a milk feed. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " A quick snack between lunch and dinner sounds great! Try light and portable foods like red pepper slices, strawberries, apples with peanut/almond butter, hard boiled eggs, a clementine, or anything else you can think of that is easy to eat on the go. ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " A baby's gotta eat! This solid dinner will be more of the flavors and textures they're familiar with, plus, another opportunity to self-feed. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm - 5:15 pm"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:45 pm"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " This milk feed is optional \u2014 your baby should be getting all the nutrition they need from solid foods. ",
+        "baby_schedule_name": "Milk Feed and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['20']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " This is probably the longest stretch of time for your baby to not eat (overnight) so prepare for a hungry appetite! Feel free to combine breakfast and milk at this age, which might be fun if you'd like to include your baby in your family's breakfast. ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Creativity always wins when it comes to food, especially when it comes to the first (and most important) meal of the day! Try feeding your baby solid foods like scrambled eggs, yogurt, whole wheat pancakes cooked with blueberries (yum!), oatmeal or anything else you can cook up from your imagination. ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " A small snack between breakfast and lunch will keep your baby satisfied for lunch, just make sure it's not too heavy! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "9:45 am"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Now that your baby is transitioned to one nap a day, this meal may need to happen a little later than previous months. Continue to feed your baby solid foods, which will not only keep them full throughout the day, but help get them more nutritionally well rounded! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " A comfortably long nap is the perfect recharge your baby needs after a solid lunch \u2014 try not to let them sleep for more than 2 hours. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Feel free to feed your baby milk after the afternoon nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Your little one might appreciate a light snack between lunch and dinner. Try to keep it portable, in case you're both out and about \u2014 try some cheese, a handful of berries, a clementine, a mini whole wheat bagel with peanut/almond butter, or even a hard boiled egg. Really, anything you can think of that might be in line with the flavors your baby has come to enjoy, works here so long as it's not too big! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Your little one will be comfortable with different types of solid foods at this age \u2014 they'll also be self-feeding more and more with each day! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm - 5:15 pm"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:45 pm"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " This is an optional milk feed, especially since your little one is probably getting most of their nutrition from solid foods throughout the day. ",
+        "baby_schedule_name": "Milk Feed and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['21']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " Consider combining two meals at this point \u2014 breakfast and milk, as your baby will be very hungry after a long stretch of not being fed overnight. Feel free to include the little one in your family's breakfast, if that's something you'd like to do! ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " Foods to try for this first meal of the day might include oatmeal, whole wheat pancakes with blueberries, roasted cherry tomatoes, and scrambled eggs! Toast fingers with avocado or butter are also solid options! ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " A (small) snack is good for your baby at this time in the morning.  ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "9:45 am"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " If your baby is comfortable with a solid lunch at this age, keep introducing a variety of flavors and textures to continue expanding their palate and encouraging nutritional growth. Self-feeding may start to happen (awesome!) as they grow more independent. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " Don't let your little one sleep for more than 2 hours, between these hours. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " A quick feed for your little one will be nice after a lovely afternoon nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " Snack please! Your little one might be hungry between lunch and dinner, but don't give them too much otherwise they'll be full for dinner. Try giving your baby some strawberries, red pepper slices, (baby) carrots, a clementine, a mini whole-wheat bagel with peanut/almond butter, or even a hard boiled egg. You can be creative here, just keep it light and portable so it can be eaten on the go. ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " This is an optional milk feed \u2014 your little one is probably still full from dinner, and has gotten most of their nutrition from solid foods. ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm - 5:15 pm"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:45 pm"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " This is an optional milk feed, especially since your little one is probably getting most of their nutrition from solid foods throughout the day. ",
+        "baby_schedule_name": "Milk Feed and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['22']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " If you haven't already, consider combining your baby's milk feed and breakfast so that they happen at the same time. You may even wish to include your baby in your family's meal! ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " Someone is very hungry and ready to eat all the solid foods! Some great options for this meal: oatmeal, avocado on toast fingers, toast fingers with butter, scrambled eggs, and really anything else you can think of that would make your baby's tummy happy, so long as it isn't too hard for them to chew! ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " Your baby might appreciate a small snack between breakfast and lunch, but nothing to heavy! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "9:45 am"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " A solid lunch will be welcome after a busy morning. They're probably self-feeding, too, which is amazing! Keep the morning snack light so as not to interefere with this meal, which may start slightly earlier now that they've transitioned to one nap a day. ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " Your baby will love this afternoon nap, especially after their awesome lunch. Don't let them sleep for more than 2 hours! ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " A quick feed after the afternoon nap will be nice for your baby. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " It's not quite dinnertime, and your baby may be a bit hungry between lunch and the final meal of the day. Keep it light and portable (so you can give them their snack on the go if you're out and about) \u2014 try something like cucumber slices, a banana, apples with peanut/almond butter, a handful of berries, a clementine, a mini whole wheat bagel with peanut/almond butter, or a hard boiled egg. Get creative! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " Lots of flavors and textures from solid foods at this age, especially as they become your baby's main source of nutrition. Self-feeding is becoming a regular occurrence, too! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm - 5:15 pm"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:45 pm"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " At this age, a bedtime milk feed is optional. Your baby is getting most of their daily nutrition from solid foods during meals. ",
+        "baby_schedule_name": "Milk Feed and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['23']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
+    }
+][
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " After a long night of sleeping with no feeding, your baby will be HUNGRY! Think about combining milk and breakfast at this age, and don't be afraid to include the little one in your family's meal! ",
+        "baby_schedule_name": "Wake and Milk Feed",
+        "baby_schedule_time": "6:15 am"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Your baby is probably still really hungry, and craving the delicious food you've already started introducing to them at breakfast! Good foods to consider during this meal include eggs, oatmeal or whole wheat pancakes cooked with blueberries! Any solid foods that are easy to eat are great for your baby at this age. ",
+        "baby_schedule_name": "Breakfast",
+        "baby_schedule_time": "7:15 am"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Don't let your baby be too full for lunch, a small snack is fine though. ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "9:45 am"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Similar to breakfast, lunch should now be solid and fairly straightforward for your baby at this age. They're growing so fast, and probably more comfortable self-feeding, which is great! ",
+        "baby_schedule_name": "Lunch",
+        "baby_schedule_time": "11:45 am"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Your baby should be comfortable with a nap around this time, but watch out for nighttime resistance-it might be a sign that you need to cut down the nap a little. ",
+        "baby_schedule_name": "Naptime",
+        "baby_schedule_time": "12:15 pm - 2:15 pm"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " It's fine to offer your baby milk after the afternoon nap. ",
+        "baby_schedule_name": "Milk Feed",
+        "baby_schedule_time": "2:15 pm"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Get creative with this light snack, similar to the morning. Keep this food light and portable so it can be eaten on the go. Cheese sticks are great, as are blueberries, apples with peanut/almond butter, a hard boiled egg, a clementine... tons of options here! ",
+        "baby_schedule_name": "Snack (Optional)",
+        "baby_schedule_time": "3:45 pm"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Solid dinners and self-feeding are more and more common for your baby at this age. Yay! ",
+        "baby_schedule_name": "Dinner",
+        "baby_schedule_time": "4:45 pm - 5:15 pm"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Splish-splash! It's time for a bath! ",
+        "baby_schedule_name": "Bath",
+        "baby_schedule_time": "5:45 pm"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Since your baby is getting most of their daily nutrition from solid foods, this milk feed is optional. ",
+        "baby_schedule_name": "Milk Feed and Book",
+        "baby_schedule_time": "6:00 pm"
+    },
+    {
+        "baby_age": "['24']",
+        "baby_schedule_description": " Time for bed. Sweet Dreams! ",
+        "baby_schedule_name": "Bedtime",
+        "baby_schedule_time": "6:15 pm"
     }
 ]
