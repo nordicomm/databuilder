@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup as soup  # HTML data structure
 from urllib.request import urlopen as uReq  # Web client
 import re
 
+
 # URl to web scrap from.
-# in this example we web scrap graphics cards from Newegg.com
 page_url = "https://www.nanit.com/blog/baby-sleep-schedule/3-month-baby-sleep-schedule/"
 
 # opens the connection and downloads html page from url
