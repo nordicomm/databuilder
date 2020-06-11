@@ -100,6 +100,7 @@ def extract_sleep_data_from_nanit_json(data):
     sleep_data = []
 
     for index in data:
+
         s_data = {}
         s_data['baby_age'] = int(re.search(r'\d+', index['baby_age']).group(0))
 
@@ -110,6 +111,15 @@ def extract_sleep_data_from_nanit_json(data):
 
             # append data
             sleep_data.append(s_data)
+
+        if index['baby_schedule_name'] == "Bedtime":
+            s_data['bed_time'] = dt.strptime(str(index['baby_schedule_time']), '%I:%M %p')
+            sleep_data.append(s_data)
+
+        if index['baby_schedule_name'] == "Wake and Milk Feed":
+            s_data['wakeup_time'] = dt.strptime(str(index['baby_schedule_time']), '%I:%M %p')
+            sleep_data.append(s_data)
+
 
 
     # note: remember to replace the date, using variable.replace function
