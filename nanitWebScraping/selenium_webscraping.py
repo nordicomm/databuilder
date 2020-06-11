@@ -51,10 +51,4 @@ pip install selenium
     
 ********* Ready to use Selenium now ************
 
-
-
-
-
-3. 
-
 '''

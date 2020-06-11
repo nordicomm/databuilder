@@ -4,6 +4,8 @@ import names
 import datetime
 import constants
 import sleep_identifiers
+from sleep_identifiers import extract_sleep_data_from_nanit_json
+
 import generate_data
 
 baby_name = names.get_full_name() # baby full name
@@ -12,8 +14,15 @@ bab_age = constants.BABY_AGE_IN_MONTHS
 # create object
 sleep_identifiers.initialize_objects()
 
+with open('baby_schedule.json') as json_file:
+    data = json.load(json_file)
+
+baby_sleep_data = extract_sleep_data_from_nanit_json(data)
+
+
+
 # build a normal sequence
-sleep_identifiers.generate_normal_sequence_6months()
+#sleep_identifiers.generate_normal_sequence_6months()
 
 
 

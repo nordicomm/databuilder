@@ -1,12 +1,13 @@
-from nanitWebScraping.nanit_detailed_info_parser import parser_function
-from nanitWebScraping.nanit_baby_schedule import baby_schedule_scraper
-from nanitWebScraping.selenium_webscraping import selenium_webscraping_function
+from nanit_detailed_info_parser import parser_function
+from nanit_baby_schedule import baby_schedule_scraper
+from selenium_webscraping import selenium_webscraping_function
 
 import time # to add dealy
 
 #nanit data extractor
 page_url_list = ["https://www.nanit.com/blog/baby-sleep-schedule/3-month-baby-sleep-schedule/",
-                 "https://www.nanit.com/blog/baby-sleep-schedule/4-month-baby-sleep-schedule/",
+                 "https://www.nanit.com/blog/baby-sleep-schedule/4-month-baby-sleep-schedule/"]
+'''
                  "https://www.nanit.com/blog/baby-sleep-schedule/5-month-baby-sleep-schedule/",
                  "https://www.nanit.com/blog/baby-sleep-schedule/6-month-baby-sleep-schedule/",
                  "https://www.nanit.com/blog/baby-sleep-schedule/7-month-baby-sleep-schedule/",
@@ -29,7 +30,7 @@ page_url_list = ["https://www.nanit.com/blog/baby-sleep-schedule/3-month-baby-sl
                  "https://www.nanit.com/blog/baby-sleep-schedule/24-month-baby-sleep-schedule/"
                  ]
 
-
+'''
 
 for page_url in page_url_list:
 

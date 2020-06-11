@@ -1,5 +1,11 @@
 import datetime
 import constants
+import json
+
+from datetime import datetime as dt
+
+
+import re
 # Currently we have 10 sleep identifiers
 # sleep_quality: (percentage)
 # dur_nighttime_sleep: (hour, min)
@@ -78,7 +84,7 @@ day = [] # list of day, for which data is generated
 def initialize_objects():
 
     # computing the first date
-    start_date = next_date = datetime.date.today() - datetime.timedelta(days=constants.NUMBER_OF_DAYS_DATA)
+    next_date = datetime.date.today() - datetime.timedelta(days=constants.NUMBER_OF_DAYS_DATA)
 
     # initializing the objects for all days, for which data is required
     for index in range(constants.NUMBER_OF_DAYS_DATA):
@@ -89,6 +95,29 @@ def initialize_objects():
         day[index].print_date()
 
 # NOTE: I was working on generating a normal sequence with classes
+
+def extract_sleep_data_from_nanit_json(data):
+    sleep_data = []
+
+    for index in data:
+        s_data = {}
+        s_data['baby_age'] = int(re.search(r'\d+', index['baby_age']).group(0))
+
+        if index['baby_schedule_name'] == "Naptime":
+            time_split = index['baby_schedule_time'].split(' - ')
+            s_data['on_bed_start_time'] = dt.strptime(str(time_split[0]), '%I:%M %p')
+            s_data['on_bed_end_time'] = dt.strptime(str(time_split[1]), '%I:%M %p')
+
+            # append data
+            sleep_data.append(s_data)
+
+
+    # note: remember to replace the date, using variable.replace function
+    # print(sleep_data)
+    return(sleep_data)
+
+
+
 
 def generate_normal_sequence_6months():
     startDate = day[0].pointer

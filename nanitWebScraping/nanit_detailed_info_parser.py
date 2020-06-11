@@ -40,6 +40,7 @@ class MyHTMLParser(HTMLParser):
 # end of class MyHTMLParser
 
 def parser_function(page_soup, baby_age):
+    out_filename = "baby_age_wise_sleep_details.json"
 
     # finds detailed data based on baby's age
     information = page_soup.findAll("div", {"class": "article-pure-content clearfix"})
@@ -62,7 +63,7 @@ def parser_function(page_soup, baby_age):
     substring_title = SUBSTRING_TITLE_TAG
     substring_desc = SUBSTRING_DESCRIPTION_TAG
 
-    fh = open("../baby_age_wise_sleep_details.json", "a+") #open JSON file
+    fh = open(out_filename, "w+") #open JSON file
 
     for x in parser_info.info:
 
