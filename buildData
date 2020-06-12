@@ -7,6 +7,9 @@ import datetime
 import constants
 import sleep_identifiers
 from sleep_identifiers import extract_sleep_data_from_nanit_json
+from sleep_identifiers import night_sleep_check
+
+from sleep_identifiers import generate_data_for_baby
 
 def night_sleep_check(start_sleep, end_sleep):
     timestamp = datetime.datetime(year=1900, month=1, day=1, hour=18, minute=00)
@@ -17,6 +20,8 @@ def night_sleep_check(start_sleep, end_sleep):
             return True
     else:
         return False
+
+
 
 import generate_data
 baby_info = []
@@ -38,8 +43,7 @@ fh = open(out_filename, "w+")  # open JSON file to output
 baby_sleep_data = extract_sleep_data_from_nanit_json(data)
 
 # generate different sleep data for each age group, by changing the wakeup time.
-
-
+generate_data_for_baby(baby_info_start['baby_age'], baby_sleep_data, baby_info_start['timezone'])
 
 #display in proper format
 for sleep in baby_sleep_data:

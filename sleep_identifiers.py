@@ -53,24 +53,16 @@ class baby_day:
         self.sleep_technique_in_progress = 0 #Push Sleep (1) / Easy Dream (2) / None (0)
 
         #naps records of the baby. This will include all the naps the baby had during log_date
-        self.nap_times = []
+        self.nap_time = []
 
         # feed times of the baby
-        self.feed_times = []
+        self.feed_time = []
 
         #bath time before the sleep
         self.bathtime_before_sleep = datetime.datetime.today() - datetime.datetime.today()
 
     def increment_pointer(self, hrs):
         self.pointer = self.pointer + datetime.timedelta(hours=hrs)
-
-    def add_naptime(self, hrs):
-        endtime = self.pointer + datetime.timedelta(hours= hrs)
-        self.nap_times.append([self.pointer, endtime])
-        self.increment_pointer(hrs)
-
-    def add_feedtime(self, feed_time_to_add, current_pointer):
-        self.feed_time.append(current_pointer)
 
     def print_date(self):
         print(self.start_log_date, "sleep data")
@@ -80,6 +72,16 @@ class baby_day:
 
 # define the list of day object
 day = [] # list of day, for which data is generated
+
+def night_sleep_check(start_sleep, end_sleep):
+    timestamp = datetime.datetime(year=1900, month=1, day=1, hour=18, minute=00)
+    if start_sleep.time() > timestamp.time():
+        return True
+    elif end_sleep.time() > timestamp.time():
+        if (end_sleep.time() - timestamp) > (timestamp - start_sleep.time()):
+            return True
+    else:
+        return False
 
 def initialize_objects():
 
@@ -95,6 +97,49 @@ def initialize_objects():
         day[index].print_date()
 
 # NOTE: I was working on generating a normal sequence with classes
+
+def generate_data_for_baby(baby_age, sleep_data, timezone):
+    # create nap_time for different days, and add them with the date
+    # get_object date range
+    # get normal data
+    # append normal data with each date
+    # add wakeup time
+    # add bedtime
+
+    # extract original data for sleep first
+    sleep_normal_data = []
+    for s_index in sleep_data:
+        if baby_age == s_index['baby_age']:
+            sleep_normal_data.append(s_index)
+
+    print(sleep_normal_data)
+    print(len(sleep_normal_data))
+    print(sleep_normal_data[4])
+
+    day[0].morning_wakeup_time = sleep_normal_data[0]['wakeup_time']
+    day[0].go_to_bedtime = sleep_normal_data[len(sleep_normal_data)-1]['bed_time']
+
+    nap_time = []
+    # extract start and end time of naps
+    for entry in sleep_normal_data:
+        if len(entry) >= 3:
+            add_baby_sleep = {}
+            add_baby_sleep['on_bed_start_time'] = entry['on_bed_start_time'].replace(year=day[0].start_log_date.year,
+                                                                                     month=day[0].start_log_date.month,
+                                                                                     day=day[0].start_log_date.day)
+            add_baby_sleep['on_bed_end_time'] = entry['on_bed_end_time'].replace(year=day[0].start_log_date.year,
+                                                                                 month=day[0].start_log_date.month,
+                                                                                 day=day[0].start_log_date.day)
+
+            add_baby_sleep['sleep_time'] = add_baby_sleep['on_bed_end_time'] - add_baby_sleep['on_bed_start_time']
+
+            add_baby_sleep['is_night_sleep'] = night_sleep_check(entry['on_bed_start_time'], entry['on_bed_end_time'])
+            add_baby_sleep['timezone'] = timezone
+            day[0].nap_time.append(add_baby_sleep)
+
+    # note: next step is to generalize it
+
+    print(day[0].nap_time)
 
 def extract_sleep_data_from_nanit_json(data):
     sleep_data = []
