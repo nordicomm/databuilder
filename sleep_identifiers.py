@@ -7,6 +7,7 @@ from datetime import datetime as dt
 import re
 
 import numpy as np
+from constants import get_baby_requirements
 
 
 # Currently we have 10 sleep identifiers
@@ -160,74 +161,73 @@ def generate_normal_data_for_baby(baby_age, timezone, sleep_data):
 
 
 def generate_normal_nighttime_data_for_baby():
-    # baby sleep requirements based on current age
-    baby_requirements = {}  # need to change as initialization of day variables
-    for n_index in constants.baby_sleep_req:
-        if n_index['baby_age'] == day[0].baby_age:
-            baby_requirements = {'baby_age': n_index['baby_age'],
-                                 'total_sleep': n_index['total_sleep'],
-                                 'daytime_sleep': n_index['daytime_sleep'],
-                                 'nighttime_sleep': n_index['nighttime_sleep'],
-                                 'daytime_naps_number': n_index['daytime_naps_number'],
-                                 'nighttime_naps_number': n_index['nighttime_naps_number']}
-            break
 
-    day[0].dur_bedtime_before_first_nighttime_sleep = datetime.timedelta(minutes=14)
+    for index in range(0, len(day)):
 
-    # baby day time naps
-    for nap in day[0].nap_time:
-        day[0].dur_daytime_sleep += nap['sleep_time']
+        # get baby sleep requirements based on current age
+        baby_requirements = get_baby_requirements(day[index].baby_age)
 
-    # calculate how much sleep is required for the nighttime
-    nighttime_sleep_required = datetime.timedelta(hours=baby_requirements['total_sleep']) - day[0].dur_daytime_sleep
+        # initialize the day variable that will be needed to comput
+        day[index].dur_bedtime_before_first_nighttime_sleep = datetime.timedelta(minutes=14)
 
-    # ad a day, and wakeup time for next day wakeup time.
-    next_day_wakeup = day[0].morning_wakeup_time + datetime.timedelta(days=1)
+        # calculating baby daytime naps
+        for nap in day[index].nap_time:
+            day[index].dur_daytime_sleep += nap['sleep_time']
 
-    # total time available to place the night time naps
-    bedtime_and_wakeup_time_difference = next_day_wakeup - day[0].go_to_bedtime
+        # calculate how much sleep is required for the nighttime
+        nighttime_sleep_required = datetime.timedelta(hours=baby_requirements['total_sleep']) - day[index].dur_daytime_sleep
 
-    # duration on bed calculated including nighttime sleep, and duration awake during the night.
-    # important: duration awake during the night includes ths bedtime before first sleep as well
-    duration_on_bed_required = nighttime_sleep_required + day[0].dur_awake_during_night
+        # ad a day, and wakeup time for next day wakeup time.
+        next_day_wakeup = day[index].morning_wakeup_time + datetime.timedelta(days=1)
 
-    # check if the time difference between goto_bedtime and wakeup time is enough for baby to wakeup on right time
-    # next day
-    if bedtime_and_wakeup_time_difference < duration_on_bed_required:
-        day[0].next_morning_late_wakeup_flag = True  # baby will be waking up late
+        # total time available to place the night time naps
+        bedtime_and_wakeup_time_difference = next_day_wakeup - day[index].go_to_bedtime
 
-    # generating random nap sessions, as per requirements
-    nap_session = np.random.multinomial(nighttime_sleep_required.seconds,
-                                        np.ones(baby_requirements['nighttime_naps_number']) /
-                                        baby_requirements['nighttime_naps_number'], size=1)[0]
-    print(day[0].dur_awake_during_night)
+        # duration on bed calculated including nighttime sleep, and duration awake during the night.
+        # important: duration awake during the night includes ths bedtime before first sleep as well
+        duration_on_bed_required = nighttime_sleep_required + day[index].dur_awake_during_night
 
-    awake_session = np.random.multinomial(day[0].dur_awake_during_night.seconds,
-                          np.ones(baby_requirements['nighttime_naps_number'] - 1) /
-                          (baby_requirements['nighttime_naps_number'] - 1), size=1)[0]
-    print(awake_session)
-    end_point = day[0].go_to_bedtime
-    # first nap
-    for nap_number in range(0, baby_requirements['nighttime_naps_number']):
-        nap = {}
-        if nap_number == 0:
-            nap['on_bed_start_time'] = end_point
-            nap['on_bed_end_time'] = nap['on_bed_start_time'] + datetime.timedelta(seconds=int(nap_session[nap_number]))
-            nap['is_night_sleep'] = True
-            nap['sleep_time'] = nap['on_bed_end_time'] - nap['on_bed_start_time']
-            nap['sleep_time'] -= day[0].dur_bedtime_before_first_nighttime_sleep
-            end_point = nap['on_bed_end_time']
-        else:
-            nap['on_bed_start_time'] = end_point + datetime.timedelta(seconds=int(awake_session[nap_number-1]))
-            nap['on_bed_end_time'] = nap['on_bed_start_time'] + datetime.timedelta(seconds=int(nap_session[nap_number]))
-            nap['is_night_sleep'] = True
-            nap['sleep_time'] = nap['on_bed_end_time'] - nap['on_bed_start_time']
-            end_point = nap['on_bed_end_time']
+        # check if the time difference between goto_bedtime and wakeup time is enough for baby to wakeup on right time
+        # next day
+        if bedtime_and_wakeup_time_difference < duration_on_bed_required:
+            day[index].next_morning_late_wakeup_flag = True  # baby will be waking up late
 
-        day[0].nap_time.append(nap)
+        # generating random nap sessions, as per requirements
+        nap_session = np.random.multinomial(nighttime_sleep_required.seconds,
+                                            np.ones(baby_requirements['nighttime_naps_number']) /
+                                            baby_requirements['nighttime_naps_number'], size=1)[0]
 
-    day[0].pointer = end_point
-    print(day[0].nap_time)
+        awake_session = np.random.multinomial(day[index].dur_awake_during_night.seconds,
+                              np.ones(baby_requirements['nighttime_naps_number'] - 1) /
+                              (baby_requirements['nighttime_naps_number'] - 1), size=1)[0]
+
+        end_point = day[index].go_to_bedtime # needed to have a start time at start of every loop
+
+        for nap_number in range(0, baby_requirements['nighttime_naps_number']):
+            nap = {}
+            if nap_number == 0:
+                # calculating for first nap
+                nap['on_bed_start_time'] = end_point
+                nap['on_bed_end_time'] = nap['on_bed_start_time'] + datetime.timedelta(seconds=int(nap_session[nap_number]))
+                nap['is_night_sleep'] = True
+                nap['sleep_time'] = nap['on_bed_end_time'] - nap['on_bed_start_time']
+                nap['sleep_time'] -= day[index].dur_bedtime_before_first_nighttime_sleep
+                end_point = nap['on_bed_end_time']
+            else:
+                # calculating naps after first nap
+                nap['on_bed_start_time'] = end_point + datetime.timedelta(seconds=int(awake_session[nap_number-1]))
+                nap['on_bed_end_time'] = nap['on_bed_start_time'] + datetime.timedelta(seconds=int(nap_session[nap_number]))
+                nap['is_night_sleep'] = True
+                nap['sleep_time'] = nap['on_bed_end_time'] - nap['on_bed_start_time']
+                end_point = nap['on_bed_end_time']
+
+            day[index].nap_time.append(nap)
+
+        day[index].pointer = end_point
+        print(day[index].start_log_date)
+        print(day[index].nap_time)
+
+    # end of day for loop
 
     # if bedtime_and_wakeup_time_difference > nighttime_sleep_required
 

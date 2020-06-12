@@ -1,6 +1,6 @@
 import json
 
-NUMBER_OF_DAYS_DATA = 7 # date generated for each baby.
+NUMBER_OF_DAYS_DATA = 7  # date generated for each baby.
 
 # default wakeup time for the baby
 DEFAULT_WAKEUP_TIME_HOUR = 6
@@ -51,11 +51,27 @@ BABY_SLEEP_REQ = [[3, 15, 8, 7, 4, 3],
                   [23, 13, 2, 11, 2, 1],
                   [24, 13, 2, 11, 2, 1]]
 
-baby_sleep_req = []
-for req in BABY_SLEEP_REQ:
-    sleep_req = {'baby_age': req[0], 'total_sleep': req[1], 'daytime_sleep': req[2], 'nighttime_sleep': req[3],
-                 'daytime_naps_number': req[4], 'nighttime_naps_number': req[5]}
-    baby_sleep_req.append(sleep_req)
+
+# function to get baby sleep requirements.
+
+def get_baby_requirements(_baby_age):
+    baby_sleep_req = []
+    for req in BABY_SLEEP_REQ:
+        sleep_req = {'baby_age': req[0], 'total_sleep': req[1], 'daytime_sleep': req[2], 'nighttime_sleep': req[3],
+                     'daytime_naps_number': req[4], 'nighttime_naps_number': req[5]}
+        baby_sleep_req.append(sleep_req)
+
+    baby_requirements = {}  # need to change as initialization of day variables
+    for n_index in baby_sleep_req:
+        if n_index['baby_age'] == _baby_age:
+            baby_requirements = {'baby_age': n_index['baby_age'],
+                                 'total_sleep': n_index['total_sleep'],
+                                 'daytime_sleep': n_index['daytime_sleep'],
+                                 'nighttime_sleep': n_index['nighttime_sleep'],
+                                 'daytime_naps_number': n_index['daytime_naps_number'],
+                                 'nighttime_naps_number': n_index['nighttime_naps_number']}
+            break
+    return baby_requirements
 
 
 TIMEZONE = ['GMT+5', 'GMT+2']
@@ -71,7 +87,6 @@ for index in BABY_SLEEP_REQ:
     baby_sleep_per_day.append(baby_data_)
 
 # ******** Build JSON for Constants
-#fh = open("sleep_constants.json", "a+")
-#fh.write(json.dumps(baby_sleep_per_day, indent=4, sort_keys=True))
-#fh.close()
-
+# fh = open("sleep_constants.json", "a+")
+# fh.write(json.dumps(baby_sleep_per_day, indent=4, sort_keys=True))
+# fh.close()
