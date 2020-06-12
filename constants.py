@@ -51,6 +51,12 @@ BABY_SLEEP_REQ = [[3, 15, 8, 7, 4, 3],
                   [23, 13, 2, 11, 2, 1],
                   [24, 13, 2, 11, 2, 1]]
 
+baby_sleep_req = []
+for req in BABY_SLEEP_REQ:
+    sleep_req = {'baby_age': req[0], 'total_sleep': req[1], 'daytime_sleep': req[2], 'nighttime_sleep': req[3],
+                 'daytime_naps_number': req[4], 'nighttime_naps_number': req[5]}
+    baby_sleep_req.append(sleep_req)
+
 
 TIMEZONE = ['GMT+5', 'GMT+2']
 
