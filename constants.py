@@ -51,6 +51,9 @@ BABY_SLEEP_REQ = [[3, 15, 8, 7, 4, 3],
                   [23, 13, 2, 11, 2, 1],
                   [24, 13, 2, 11, 2, 1]]
 
+
+TIMEZONE = ['GMT+5', 'GMT+2']
+
 for index in BABY_SLEEP_REQ:
     baby_data_ = {}
     baby_data_['age_in_months'] = index[0]
