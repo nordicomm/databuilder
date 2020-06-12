@@ -23,20 +23,15 @@ from constants import get_baby_requirements
 # sleep_technique_in_progress: indicater for the sleep technique in action
 
 
-# sleep quality
-# we have a current day data, and sleep quality will be part of it.
-class duration:
-    def __init__(self, dur_hours, dur_minutes, dur_seconds):
-        self.dur_hours = dur_hours
-        self.dur_minutes = dur_minutes
-        self.dur_seconds = dur_seconds
-
 
 # each class object will have one day data of the baby.
 class baby_day:
+    baby_age = 1
+    baby_name = "Unknown"
+
     def __init__(self, log_date):
         # date of the day
-        self.baby_age = 0
+
         self.start_log_date = log_date
         self.end_log_date = log_date + datetime.timedelta(days=1)
 
@@ -52,7 +47,7 @@ class baby_day:
 
         # identifiers values such
         self.sleep_quality = 0;  # sleep quality
-        self.dur_nighttime_sleep = duration(0, 0, 0)  # nightime sleep duration
+        self.dur_nighttime_sleep = datetime.timedelta()  # nightime sleep duration
         self.number_of_time_awake = 0;  # number of time baby was awake
         self.dur_bedtime_before_first_nighttime_sleep = datetime.timedelta(
             minutes=14)  # bedtime before the first sleep during the night
@@ -110,21 +105,25 @@ def initialize_objects():
 
 # NOTE: I was working on generating a normal sequence with classes
 
-def generate_normal_data_for_baby(baby_age, timezone, sleep_data):
+def generate_normal_data_for_baby(baby_age_info, baby_name_info, timezone, sleep_data):
     # create nap_time for different days, and add them with the date
     # get_object date range
     # get normal data
     # append normal data with each date
     # add wakeup time
     # add bedtime
+
+
     for index in range(0, len(day)):
         # extract original data for sleep first
         sleep_normal_data = []
         for s_index in sleep_data:
-            if baby_age == s_index['baby_age']:
+            if baby_age_info == s_index['baby_age']:
                 sleep_normal_data.append(s_index)
 
         day[index].baby_age = sleep_normal_data[0]['baby_age']
+        day[index].baby_name = baby_name_info
+
         day[index].morning_wakeup_time = sleep_normal_data[0]['wakeup_time'].replace(
             year=day[index].start_log_date.year,
             month=day[index].start_log_date.month,
@@ -165,7 +164,7 @@ def generate_normal_nighttime_data_for_baby():
     for index in range(0, len(day)):
 
         # get baby sleep requirements based on current age
-        baby_requirements = get_baby_requirements(day[index].baby_age)
+        baby_requirements = get_baby_requirements(day[0].baby_age)
 
         # initialize the day variable that will be needed to comput
         day[index].dur_bedtime_before_first_nighttime_sleep = datetime.timedelta(minutes=14)
@@ -224,8 +223,8 @@ def generate_normal_nighttime_data_for_baby():
             day[index].nap_time.append(nap)
 
         day[index].pointer = end_point
-        print(day[index].start_log_date)
-        print(day[index].nap_time)
+        #print(day[index].start_log_date)
+        #print(day[index].nap_time)
 
     # end of day for loop
 
@@ -259,3 +258,33 @@ def extract_sleep_data_from_nanit_json(data):
     # note: remember to replace the date, using variable.replace function
     # print(sleep_data)
     return (sleep_data)
+
+def create_baby_day_sleep_date_for_json():
+
+    baby_info = []
+    for index in range(0, len(day)):
+        for nap in day[index].nap_time:
+            add_baby_sleep = {'baby_in_months': str(day[index].baby_age), 'baby_name': str(day[index].baby_name),
+                              'sleep_time': str(nap['sleep_time']), 'on_bed_start_time': str(nap['on_bed_start_time']),
+                              'on_bed_end_time': str(nap['on_bed_end_time']), 'is_night_sleep': str(nap['is_night_sleep']),
+                              'timezone': str(day[index].nap_timezone)}
+
+            baby_info.append(add_baby_sleep)
+    # end of day for loop
+    return baby_info
+'''
+    for sleep in baby_sleep_data:
+        if baby_info_start['baby_age'] == sleep['baby_age']:
+            if len(sleep) >= 3:  # it is a small hack to see if the sleep variable contains sleep start and end values
+                add_baby_sleep = {}
+                add_baby_sleep['baby_in_months'] = str(sleep['baby_age'])
+                add_baby_sleep['baby_name'] = baby_info_start['baby_name']
+                # date needed to be changed
+                add_baby_sleep['sleep_time'] = str(sleep['on_bed_end_time'] - sleep['on_bed_start_time'])
+                add_baby_sleep['on_bed_start_time'] = str(sleep['on_bed_start_time'])
+                add_baby_sleep['on_bed_end_time'] = str(sleep['on_bed_end_time'])
+                add_baby_sleep['is_night_sleep'] = night_sleep_check(sleep['on_bed_start_time'],
+                                                                     sleep['on_bed_end_time'])
+                add_baby_sleep['timezone'] = baby_info_start['timezone']
+                baby_info.append(add_baby_sleep)
+'''
