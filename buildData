@@ -19,7 +19,7 @@ import generate_data
 out_filename = "sleep_data_to_add.json"
 
 # change the baby name, age, and timezone here
-baby_info_start = {'baby_name': names.get_full_name(), 'baby_age': constants.BABY_AGE_IN_MONTHS[2],
+baby_info_start = {'baby_name': names.get_full_name(), 'baby_age': constants.BABY_AGE_IN_MONTHS[11],
                    'timezone': constants.TIMEZONE[0]}
 
 print("Checkpoint: baby age: " + str(baby_info_start['baby_age']))
